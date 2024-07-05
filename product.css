@@ -1,0 +1,40 @@
+.row{
+   align-items: center; 
+   margin: 20px;
+}
+
+.row h2{
+    justify-content: space-between;
+    font-size: xx-large;
+}
+
+.row select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+    font-size: larger;
+}
+
+select:focus{
+    outline: none;
+}
+.page-btn {
+    display: flex;                
+    justify-content: center;       
+    align-items: center;          
+                   
+    margin: 0 auto 80px;           
+}
+
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.page-btn :hover{
+    background: #ff523b;
+    color: #fff;
+}
